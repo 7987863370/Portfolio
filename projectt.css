@@ -1,0 +1,123 @@
+*{margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgba(0,255,0,0.5);
+}
+h1{
+    
+    font-family: sans-serif;
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    color: rgb(201, 48, 48);
+    font-size: 40px;
+    
+    
+}
+.photo1{
+    width: 600px;
+    height: 400px;
+    background-image: url("https://codewithcurious.com/wp-content/uploads/2022/11/Screenshot-2022-11-13-at-13.38.43.png");
+    border-radius: 5px;
+    position: absolute;
+    bottom: 200px;
+}
+.stop{
+    margin-top: 400px;
+    margin-left: 50px;
+}
+.photo2{
+    width: 400px;
+    height: 300px;
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/1*fbLb3jkm3V_m4Mo5bmYJMg.png");
+    border-radius: 5px;
+    background-size: contain;
+    position: absolute;
+    margin-top: 700px;
+    margin-left:50px ;
+
+
+}
+.weather{
+    margin-top: 400px;
+}
+.photo3{
+ width: 450px;
+ height: 300px;
+ background-image: url("https://l450v.alamy.com/450v/2kdxd39/fashion-designer-landing-page-or-web-banner-template-woman-seamstress-at-mannequin-takes-measurements-dressmaker-or-tailor-vector-illustration-in-2kdxd39.jpg");
+ background-size: contain;
+ position: absolute;
+ margin-top: 1250px;
+ border-radius: 5px;
+ margin-left: 50px;
+}
+
+.cloth{
+    margin-top: 300px;
+}
+.photo4{
+    width: 450px;
+    height: 250px;
+    background-image: url("https://shots.codepen.io/username/pen/PoLbLgy-1280.jpg?version=1705545302");
+    background-size: contain;
+    position: absolute;
+    margin-top:1700px ;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.tic-tac-toe{
+    margin-top: 300px;
+}
+.photo5{
+    width: 400px;
+    height: 300px;
+    background-image: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg");
+    background-size: contain;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 2150px;
+    border-radius: 5px;
+}
+.navbar{
+    display:flex;
+    position:absolute;
+    right: 200px; 
+    font-size: 20px;
+     margin: 20px;
+    padding: 20px; 
+    color: black;
+    text-align: center;
+    background: none;
+}
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+         position: relative;
+         background: none; 
+    }
+    .navbar ul li a{
+        text-decoration:none;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+        background: none;
+    }
+    .navbar ul li::after{
+        content: '';
+        height: 3px;
+        width: 0;
+        background: black;
+         position: absolute; 
+        left: 0;
+        bottom: -10px;
+        transition: 0.4s;
+        
+    
+    }
+    .navbar ul li:hover:after{
+        width: 100%;
+    
+    }

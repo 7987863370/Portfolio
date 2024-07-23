@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+
+
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjI6vRCyqmmQXXlTn6dX2-iNwTLP06HOSudQ&s");
+    background-size: cover;
+}
+.box{
+    height: 350px;
+    width: 500px;
+    border-color: black;
+    background-image: url("https://i0.wp.com/backgroundabstract.com/wp-content/uploads/edd/2021/09/rm309-adj-05-e1656161031115.jpg?fit=800%2C533&ssl=1");
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 200px;
+    font-size: 20px;
+    font-weight: 200px;
+    
+    
+
+}
+h3{
+    font-size: 40px;
+}
+input{
+    font-size: 20px;
+    height: 40px;
+    width: 400px;
+    margin-top: 10px;
+}
+button{
+    font-size: 30px;
+     background: transparent; 
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -10px;
+    color: black;
+    
+}
+button:hover{
+    background: black;
+     color: white; 
+    
+}
+.navbar{
+    display:flex;
+    position:absolute;
+    right: 200px; 
+    font-size: 20px;
+     margin: 20px;
+    padding: 20px; 
+    color: black;
+    text-align: center;
+    background: none;
+}
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+         position: relative;
+         background: none; 
+    }
+    .navbar ul li a{
+        text-decoration:none;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+        background: none;
+    }
+    .navbar ul li::after{
+        content: '';
+        height: 3px;
+        width: 0;
+        background: black;
+         position: absolute; 
+        left: 0;
+        bottom: -10px;
+        transition: 0.4s;
+        
+    
+    }
+    .navbar ul li:hover:after{
+        width: 100%;
+    
+    }
